@@ -1,0 +1,6 @@
+Pedro:2500:funcionario
+Lucia:4000:tercerizado
+Paulo:12000:funcionario
+Maria:6000:funcionario
+Angela:2000:tercerizado
+Marcelo:1500:funcionario
