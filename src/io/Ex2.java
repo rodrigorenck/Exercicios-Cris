@@ -3,8 +3,23 @@ package io;
 import javax.swing.filechooser.FileNameExtensionFilter;
 import java.io.*;
 
+/**
+ * Ler todos os arquivos que estão na raiz do projeto com extensão ".rodrigo" e salvar em Agrupamento.txt que estara na raiz do projeto também
+ *
+ * 	File_A.rodrigo
+ * 		AAA
+ * 		AAAzzz
+ * 		AAA111444
+ * 	File_B.rodrigo
+ * 		BBB
+ * 		BBBzzz
+ * 		BBB111444
+ * 	File_C.rodrigo
+ * 		CCC
+ * 		CCCzzz
+ * 		CCC111444
+ */
 public class Ex2 {
-
     public static void main(String[] args) throws IOException {
         //como ler todos arquivos com determinada extensao
         String dir = "C:\\Users\\Rodrigo\\IdeaProjects\\exercicios-cris";

@@ -1,8 +1,9 @@
-package loops.e1;
+package loops;
 
+/**
+ * Retornar o ∑ da função ƒ(x): ((√(x/3))*4000+(x/2))/2 onde (x = 1 -> 20)
+ */
 public class Ex2 {
-
-
     public static double somatorio(int valInicial, int quantTermos){
         double somatorio = 0;
         int x = valInicial;

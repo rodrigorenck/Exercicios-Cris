@@ -1,10 +1,13 @@
-package loops.e1;
+package loops;
 
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Optional;
 
+/**
+ * Retornar todos números que são divisíveis por 5 entre 0 e 5000;
+ */
 public class Ex1 {
 
     public static void main(String[] args) {

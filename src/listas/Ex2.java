@@ -7,6 +7,10 @@ import java.util.List;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
+/**
+ * Em uma lista contendo os seguintes nome [PEDRO, ANA, LUCAS, MARIA, TALITA, JHONSON, AMANDA, JOICE, MARIO, CARLOS, JENIFER]
+ * você deve separar os nomes em duas listas on, uma lista contém os nome que iniciam com vogais e a outra contém os nomes que iniciam com consoantes.
+ */
 public class Ex2 {
 
     public static void main(String[] args) {

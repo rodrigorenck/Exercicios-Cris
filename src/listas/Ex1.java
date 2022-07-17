@@ -3,8 +3,22 @@ package listas;
 import java.util.*;
 import java.util.stream.Collectors;
 
+/**
+ * Foi selecionado algumas frases de um livro e gostaríamos de saber quais destas frases são palíndromos.
+ *
+ * 	FRASES
+ *
+ * A base do teto desaba
+ * A batata e o tabaco
+ * Acuda cadela da Leda caduca
+ * Vida vivida
+ * Anotaram a data da maratona
+ * A torre da derrota
+ * A casa esta casada
+ * O galo ama o lago
+ * Oito Morros Altos
+ */
 public class Ex1 {
-
 
     public static boolean verificaPalindroma(String frase){
         String fraseMinuscula = frase.toLowerCase();

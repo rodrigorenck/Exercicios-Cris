@@ -7,9 +7,13 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.Arrays;
 
+/**
+ * Criar uma lista contendo todas as letras em ordem alfabética
+ *       Pedir via Scanner um numero inteiro ao usuário
+ *       Criar outra lista (cifrada) utilizando o número informado pelo usuario
+ *       Escrever (hello world) com o alfabeto cifrado
+ */
 public class Ex5 {
-
-
     public static int acharPosicaoDeCaracter(List<String> list, String caracter){
         for(int i = 0; i<list.size();i++){
             if(list.get(i).equals(caracter)) return i;
